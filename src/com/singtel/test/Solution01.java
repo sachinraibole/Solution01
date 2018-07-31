@@ -21,7 +21,8 @@ public class Solution01 {
         Bird bird = new Bird();
         // Did not move walk to a behavior, but this is a candidate which also can vary as per the implementation and so can be extracted out.
         bird.walk(); 
-        // In the below code the behaviors injected into the Bird encapsulate the behavior and is interchangeable at runtime.
+        // In the below code the behaviors injected into the Bird encapsulate 
+        // the behavior and is interchangeable at runtime.
         bird.doFlying();
         bird.doSinging();
     }
